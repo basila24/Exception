@@ -25,7 +25,10 @@ class CurrenciesDoNotMatchException1 extends RuntimeException {
 	@Override
     public String toString()
     {
-        return "currency not matched matched";
+
+        return "currency not matched";
+
+
     }
 	
 }
